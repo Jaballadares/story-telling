@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+}
+
+/**** **** **** **** ****
+BREAKPOINTS -
+USAGE: @include breakpoint(small) {}
+**** **** **** **** ****/
+
+@mixin breakpoint($point) {
+  @if $point == xSmall {
+    @media (max-width: 468px)  { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 767px)  { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 768px) and (max-width: 979px) { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: 980px) and (max-width: 1199px) { @content; }
+  }
+}
+
+/**** **** **** **** ****
+CLEARFIX -
+USAGE: @include clearfix();
+**** **** **** **** ****/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

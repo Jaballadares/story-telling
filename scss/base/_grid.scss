@@ -1,0 +1,135 @@
+/****************************************************
+              Global
+****************************************************/
+
+.grid-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
+/****************************************************
+              Grid
+****************************************************/
+@media (min-width: 1px) and (max-width: 767px) {
+  .grid-container > [class^="grid-"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .hide-mobile {
+    display: none;
+  }
+
+  .main-nav li {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 786px) {
+
+
+  .main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .main-nav {
+    text-align: right;
+
+    li {
+      margin-top: 6px;
+      margin-left: 10px;
+      display: inline-block;
+    }
+}
+.main-banner {
+    background: #dfe2e4;
+    text-align: center;
+    padding: 50px 15px;
+    margin-bottom: 20px;
+  }
+
+  /* Columns */
+
+  .grid-container > [class^="col-"] {
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 2%; /* gutters */
+  }
+
+  .grid-container > [class^="col-"]:first-child {
+    margin-left: 0;
+  }
+
+  .grid-container > [class^="col-"]:last-child {
+    float: right;
+  }
+  /* Columns are 65px wide, with 20 px Gutters */
+  .col-1 {
+    width: 6.5%;
+  }
+
+  .col-2 {
+    width: 15%;
+  }
+
+  .col-3 {
+    width: 23.5%;
+  }
+
+  .col-4 {
+    width: 32%;
+  }
+
+  .col-5 {
+    width: 40.5%;
+  }
+
+  .col-6 {
+    width: 49%;
+  }
+
+  .col-7 {
+    width: 57.5%;
+  }
+
+  .col-8 {
+    width: 66%;
+  }
+
+  .col-9 {
+    width: 74.5%;
+  }
+
+  .col-10 {
+    width: 83%;
+  }
+
+  .col-11 {
+    width: 91.5%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+  /* Clearfix */
+
+  .group:after,
+  .grid-container:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    max-width: 1100px;
+  }
+}
