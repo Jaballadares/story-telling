@@ -407,7 +407,7 @@ h1 {
   letter-spacing: 0em;
   text-align: center; }
 
-h2.col-7 {
+h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
   font-size: 1.688em;
@@ -418,15 +418,16 @@ h2.col-7 {
   margin: 0 auto;
   padding-bottom: 2.3%; }
 
-p.fifty {
+p.col-10 {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
   font-size: .938em;
   line-height: 25px;
-  margin: 0 auto;
   font-weight: 400;
   letter-spacing: .067em;
-  width: 50%; }
+  width: 50%;
+  margin: 0 auto;
+  text-align: left; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
