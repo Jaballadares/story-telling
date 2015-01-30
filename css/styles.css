@@ -424,18 +424,18 @@ html {
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 3em;
+  font-size: 5em;
   color: #474747; }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
-  font-style: italic; }
+  font-size: 1.688em; }
 
 p {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
-  font-size: 1.1em;
+  font-size: .938em;
   line-height: 25px; }
 
 h1 {

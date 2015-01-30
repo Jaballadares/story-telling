@@ -5,19 +5,19 @@ html {
 }
 h1 {
   font-family: $header-font;
-  font-size: 3em;
+  font-size: 5em;
   color: $dark-gray;
 }
 
 h2 {
   font-family: $body-font;
   color: $dark-gray;
-  font-style: italic;
+  font-size: 1.688em;
 }
 
 p {
   font-family: $body-font;
   color: $dark-gray;
-  font-size: 1.1em;
+  font-size: .938em;
   line-height: 25px;
 }
