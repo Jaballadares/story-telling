@@ -32,7 +32,7 @@ h2.col-7 {
 
 p.col-9 {
   font-family: $body-font;
-  color: $dark-gray;
+  color: lighten($dark-gray, 20%);
   font-size: .938em;
   line-height: 25px;
   font-weight: 400;
