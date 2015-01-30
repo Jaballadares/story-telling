@@ -15,9 +15,10 @@ h1 {
   font-weight: 100;
   font-style: normal;
   letter-spacing: 0em;
+  text-align: center;
 }
 
-h2 {
+h2.col-7 {
   font-family: $body-font;
   color: $dark-gray;
   font-size: 1.688em;
@@ -25,11 +26,17 @@ h2 {
   font-style: normal;
   letter-spacing: 0.037em;
   text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2.3%;
 }
 
-p {
+p.fifty {
   font-family: $body-font;
   color: $dark-gray;
   font-size: .938em;
   line-height: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  letter-spacing: .067em;
+  width: 50%;
 }

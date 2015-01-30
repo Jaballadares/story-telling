@@ -335,9 +335,7 @@ td, th {
 ****************************************************/
 .grid-container {
   padding-left: 1%;
-  padding-right: 1%;
-  margin-left: auto;
-  margin-right: auto; }
+  padding-right: 1%; }
 
 img {
   width: 100%; }
@@ -355,33 +353,7 @@ img {
     margin-top: 12px; } }
 
 @media (min-width: 786px) {
-  .main-header {
-    position: fixed;
-    top: 0;
-    width: 100%; }
-  .main-nav {
-    text-align: right; }
-    .main-nav li {
-      margin-top: 6px;
-      margin-left: 10px;
-      display: inline-block; }
-  .main-banner {
-    background: #dfe2e4;
-    text-align: center;
-    padding: 50px 15px;
-    margin-bottom: 20px; }
   /* Columns */
-  .grid-container > [class^="col-"] {
-    float: left;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 2%;
-    /* gutters */ }
-  .grid-container > [class^="col-"]:first-child {
-    margin-left: 0; }
-  .grid-container > [class^="col-"]:last-child {
-    float: right; }
   /* Columns are 65px wide, with 20 px Gutters */
   .col-1 {
     width: 6.5%; }
@@ -432,25 +404,29 @@ h1 {
   color: #5B605F;
   font-weight: 100;
   font-style: normal;
-  letter-spacing: 0em; }
+  letter-spacing: 0em;
+  text-align: center; }
 
-h2 {
+h2.col-7 {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
   font-size: 1.688em;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.037em;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2.3%; }
 
-p {
+p.fifty {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
   font-size: .938em;
-  line-height: 25px; }
-
-h1 {
-  text-align: center; }
+  line-height: 25px;
+  margin: 0 auto;
+  font-weight: 400;
+  letter-spacing: .067em;
+  width: 50%; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
