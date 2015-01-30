@@ -425,12 +425,23 @@ html {
 h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 5em;
-  color: #474747; }
+  color: #474747;
+  font-weight: 100; }
+
+.blogTitle {
+  color: #5B605F;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0em; }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   color: #474747;
-  font-size: 1.688em; }
+  font-size: 1.688em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.037em;
+  text-align: center; }
 
 p {
   font-family: 'Josefin Sans', sans-serif;

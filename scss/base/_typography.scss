@@ -7,12 +7,24 @@ h1 {
   font-family: $header-font;
   font-size: 5em;
   color: $dark-gray;
+  font-weight: 100;
+}
+
+.blogTitle {
+  color: $master-header-color;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0em;
 }
 
 h2 {
   font-family: $body-font;
   color: $dark-gray;
   font-size: 1.688em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.037em;
+  text-align: center;
 }
 
 p {
