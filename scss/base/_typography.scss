@@ -10,6 +10,10 @@ h1 {
   font-weight: 100;
 }
 
+p {
+  color: lighten($dark-gray, 20%);
+}
+
 .blogTitle {
   color: $master-header-color;
   font-weight: 100;
@@ -32,7 +36,6 @@ h2.col-7 {
 
 p.col-9 {
   font-family: $body-font;
-  color: lighten($dark-gray, 20%);
   font-size: .938em;
   line-height: 25px;
   font-weight: 400;
