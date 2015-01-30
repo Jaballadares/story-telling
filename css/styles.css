@@ -6,10 +6,6 @@ BREAKPOINTS -
 USAGE: @include breakpoint(small) {}
 **** **** **** **** ****/
 /**** **** **** **** ****
-CLEARFIX -
-USAGE: @include clearfix();
-**** **** **** **** ****/
-/**** **** **** **** ****
 Colors
 **** **** **** **** ****/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */

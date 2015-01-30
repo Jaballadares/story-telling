@@ -21,19 +21,3 @@ USAGE: @include breakpoint(small) {}
     @media (min-width: 980px) and (max-width: 1199px) { @content; }
   }
 }
-
-/**** **** **** **** ****
-CLEARFIX -
-USAGE: @include clearfix();
-**** **** **** **** ****/
-
-@mixin clearfix() {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}
